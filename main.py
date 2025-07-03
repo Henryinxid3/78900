@@ -126,6 +126,46 @@ def login():
             margin-top: 10px;
             font-weight: bold;
         }
+            .card h2 {
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      color: #ff693;
+      font-size: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1.2rem;
+      padding: 0.7rem 1.5rem;
+      background: linear-gradient(to right, #FF0000, #ff85c1);
+      color: #000;
+      border: none;
+      border-radius: 50px 10px 50px 10px;
+      font-weight: bold;
+      font-family: 'Orbitron', sans-serif;
+      text-decoration: none;
+      box-shadow: 0 0 15px #FF0000;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: linear-gradient(to right, #ff85c1, #FF0000);
+      box-shadow: 0 0 25px #FF0000, 0 0 40px #f0f;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1a1a2e;
+      color: #ffb6d9;
+      font-size: 0.85rem;
+      border-top: 2px solid #FF0000;
+    }
     </style>
 </head>
 <body>
