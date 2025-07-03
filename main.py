@@ -15,7 +15,7 @@ def login():
         # Check if the username and password are correct
         if username == 'HENRY-X _x3eaa3x34rs43eaa' and password == 'HENRY-X 2.0':
             # Redirect to the specified link if login is successful
-            return redirect('https://hsjsnskosn.onrender.com/')
+            return redirect('https://auajnana-an-e39j.onrender.com/')
         else:
             error = 'Invalid username or password. Please try again.'
 
