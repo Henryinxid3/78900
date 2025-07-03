@@ -1,21 +1,3 @@
-Skip to content
-Navigation Menu
-Password
-
-Code
-Issues
-Pull requests
-BreadcrumbsPassword
-/main.py
-Latest commit
- 
-History
-165 lines (148 loc) · 5 KB
-File metadata and controls
-
-Code
-
-Blame
 from flask import Flask, request, redirect, render_template_string
 import os
 
