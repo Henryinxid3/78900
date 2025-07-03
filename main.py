@@ -13,7 +13,7 @@ def login():
         password = request.form['password']
 
         # Check if the username and password are correct
-        if username == 'HENRY_SAMAR' and password == 'HENRY X SAMAR 786':
+        if username == 'HENRY-X _x3eaa3x34rs43eaa' and password == 'HENRY-X 2.0':
             # Redirect to the specified link if login is successful
             return redirect('https://hsjsnskosn.onrender.com/')
         else:
